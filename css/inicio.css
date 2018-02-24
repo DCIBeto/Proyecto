@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(14, 13, 13);
+    background-image: url(imagenes/aspectos/Vayne_0.jpg);
+    background-repeat: no-repeat;
+}
+
+section div h2 {
+    color: rgb(218, 199, 199);
+}
+.info {
+
+    background-color: #dedede;
+
+}
+
+.aspectos {
+    background-color: #dedede;
+}
+
+.habilidades{
+    background-color: #dedede;
+}
