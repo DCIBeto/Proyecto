@@ -1,23 +1,124 @@
 
 body{
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(1, 2, 4);
     background-image: url(imagenes/aspectos/Vayne_0.jpg);
-    background-repeat: no-repeat;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
 }
+header{
+width: 931px;
+height: 200px;
+position: static;
+text-align: center;
+}
+
+header h1 {
+    color: #dedede;
+    text-align: center;
+    font-size: 4em;
+}
+header h2 {
+    color: #dedede;
+    text-align: center;
+}
+
+nav a{
+    
+    color: #dedede;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+}
+nav a:hover{
+
+    color: skyblue;
+
+}
+
 
 section div h2 {
     color: rgb(218, 199, 199);
 }
+
 .info {
 
     background-color: #dedede;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1.2em;
+    width: 931px;
+    height: 960px;
+    padding: 2em; 
+    position: absolute;
+}
+
+#infouno {
+    border-style: solid;
+    border-color: gray;
+
 
 }
+
 
 .aspectos {
     background-color: #dedede;
+    width: 931px;
+    border-style: solid;
+    border-color: gray;
+    padding: 2em;
+    position: relative;
+    border-top-width: 1000px;
 }
+.aspectouno{
+    border-style: groove;
+    width: 300px;
+}
+.aspectodos{
+    border-style: groove;
+    width: 300px;
+    float: left;
+}
+.aspectotres{
+    border-style: groove;
+    width: 300px;
+    float: left;
+    clear: left
+}
+.aspectocuatro{
+    border-style: groove;
+    width: 300px;
+}
+.aspectocinco{
+    border-style: groove;
+    width: 300px;
+}
+.aspectoseis{
+    border-style: groove;
+    width: 300px;
+}
+.aspectosiete{
+    border-style: groove;
+    width: 300px;
+}
+.aspectoocho{
+    border-style: groove;
+    width: 300px;
+}
+.aspectonueve{
+    border-style: groove;
+    width: 300px;
+}
+
 
 .habilidades{
     background-color: #dedede;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1.2em;
+    padding: 2em;
+
+
 }
