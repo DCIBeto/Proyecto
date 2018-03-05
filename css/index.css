@@ -6,7 +6,10 @@ body{
     padding-right: 150px;
     padding-top: 10px;
     padding-bottom: 15px;
+}
 
+.contenedor{
+    position: absolute;
 }
 header{
 width: 931px;
@@ -40,7 +43,7 @@ nav a:hover{
 
 
 section div h2 {
-    color: rgb(218, 199, 199);
+    color: rgb(138, 119, 119);
 }
 
 .info {
@@ -50,75 +53,226 @@ section div h2 {
     border-color: gray;
     border-width: 1.2em;
     width: 931px;
-    height: 960px;
+    height: 560px;
     padding: 2em; 
     position: absolute;
 }
 
-#infouno {
+.infouno {
+    border-style: groove;
+    border-color: gray;
+    width: 380px;
+    height: 550px;
+    position: absolute; top:20px; left: 10px;
+}
+.infodos {
     border-style: solid;
     border-color: gray;
-
-
+    width: 565px;
+    height: 550px;
+    position:absolute; top:20px; left:420px;
+}
+span{
+    font-size: 1.3em;
+    
 }
 
+.video0{
+    border-style: groove;
+    width: 560px;
+    height: 315px;
+}
+.hab0{
+    border-style: groove;
+    width: 64px;
+    height: 64px;
+    position:  relative; top:5px; left: 10px;
+}
+.hab1{
+    border-style: groove;
+    width: 64px;
+    height: 64px;
+    position: relative; top:-65px; left:100px;
+}
+.hab2{
+    border-style: groove;
+    width: 64px;
+    height: 64px;
+    position: absolute; top:413px; left:190px;
+}
+.hab3{
+    border-style: groove;
+    width: 64px;
+    height: 64px;
+    position: absolute; top:413px; left:280px;
+}
+.hab4{
+    border-style: groove;
+    width: 64px;
+    height: 64px;
+    position: absolute; top:413px; left:370px;
+}
 
-.aspectos {
+.aspecto{
     background-color: #dedede;
-    width: 931px;
+    width: 975px;
+    height: 650px;
     border-style: solid;
     border-color: gray;
-    padding: 2em;
-    position: relative;
-    border-top-width: 1000px;
+    border-width: 1.2em;
+    padding-left: 1.2em;
+    position: relative; top: 680px;
+    
+  
 }
 .aspectouno{
     border-style: groove;
     width: 300px;
+    position:relative;
 }
 .aspectodos{
     border-style: groove;
     width: 300px;
-    float: left;
+    position:absolute; top: 70px; left: 345px;
+    
 }
 .aspectotres{
     border-style: groove;
     width: 300px;
-    float: left;
-    clear: left
+    position:absolute; top: 70px; left: 670px;
 }
 .aspectocuatro{
     border-style: groove;
     width: 300px;
+    position:relative; top: 5px;
 }
 .aspectocinco{
     border-style: groove;
     width: 300px;
+    position:absolute; top: 263px; left:345px;
 }
 .aspectoseis{
     border-style: groove;
     width: 300px;
+    position:absolute; top: 263px; left:670px;
 }
 .aspectosiete{
     border-style: groove;
     width: 300px;
+    position:relative; top: 13px;
 }
 .aspectoocho{
     border-style: groove;
     width: 300px;
+    position:absolute; top: 457px; left:345px;
 }
 .aspectonueve{
     border-style: groove;
     width: 300px;
+    position:absolute; top: 457px; left:670px;
 }
 
 
 .habilidades{
     background-color: #dedede;
+    width: 931px;
     border-style: solid;
     border-color: gray;
     border-width: 1.2em;
     padding: 2em;
+    position: relative; top:700px;
+}
+.NightHunter{
+    height: 215px;
+    border-bottom-style: groove;
+}
+.VayneTumble{
+    border-bottom-style: groove;
+}
 
+.SilveredBolts{
+
+    border-bottom-style: groove;
+}
+.Condemn{
+    border-bottom-style: groove;
+}
+
+.habilidad0{
+
+    position: relative;
+    width: 600px;
+}
+.name0{
+    font-size: 1.5em;
+    position: absolute; top: 0px; left:100px;
+}
+.habilidad0video{
+
+    position: absolute; top: 100px; left:660px;
+
+}
+
+.habilidad1{
+    position: relative;
+    width: 600px;
+
+}
+.name1{
+    font-size: 1.5em;
+    position: absolute; top: 0px; left:100px;
+}
+.habilidad1video{
+    position: absolute; top: 340px; left:660px;
+}
+
+.habilidad2{
+    position: relative;
+    width: 600px;
+}
+.name2{
+    font-size: 1.5em;
+    position: absolute; top: 0px; left:100px;
+}
+.habilidad2video{
+    position: absolute; top: 620px; left:660px;
+
+}
+.habilidad3{
+    position: relative;
+    width: 600px;
+}
+.name3{
+    font-size: 1.5em;
+    position: absolute; top: 0px; left:100px;
+}
+.habilidad3video{
+    position: absolute; top: 940px; left:660px;
+
+}
+.habilidad4{
+    position: relative;
+    width: 600px;
+}
+.name4{
+    font-size: 1.5em;
+    position: absolute; top: 0px; left:100px;
+}
+.habilidad4video{
+    position: absolute; top: 1260px; left:660px;
+
+}
+span{
+    position: relative; top: 105px left 100px;
+}
+
+footer{
+    color: #dedede;
+    position: relative; top: 700px;
+}
+footer a{
+
+    color: rgb(235, 242, 245);
+    float: right;
 
 }
