@@ -1,0 +1,76 @@
+
+/* historia.css*/
+body{
+    background-color: rgb(1, 2, 4);
+    background-image: url(imagenes/aspectos/Vayne_0.jpg);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+header{
+    width: 931px;
+    height: 200px;
+    position: static;
+    text-align: center;
+}
+    
+header h1 {
+        color: #dedede;
+        text-align: center;
+        font-size: 4em;
+}
+header h2 {
+        color: #dedede;
+        text-align: center;
+}
+    
+ nav a{
+        
+    color: #dedede;
+    font-size: 30px;
+    text-decoration: none;
+     margin: 0px 20px 0px 20px;
+}
+nav a:hover{
+    
+    color: skyblue;
+}
+.retrato{
+    border-style: groove;
+    width: 70px;
+}   
+    
+section div h2 {
+        color: rgb(138, 119, 119);
+        text-align: center;
+}
+
+.historia1{
+    border-style: groove;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.historia2{
+    border-style: groove;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+p{
+    color: #dedede;
+
+}
+.estrofa2{
+
+    text-align: center;
+}
+footer{
+    color: #dedede;
+    position: relative;
+}
+footer a{
+
+    color: rgb(235, 242, 245);
+    float: right;
+
+}
