@@ -9,9 +9,9 @@
 	*/ 
 	
 	$conexion = mysqli_connect(
-				"localhost",
-				"root",
-				"",
-				"contacto"
+				"mysql.hostinger.com.ar",
+				"u637171583_beto",
+				"Nlf10@FoD",
+				"u637171583_vayne"
 				);
 ?>

@@ -14,9 +14,9 @@
 		<h1>Vayne</h1>
 		<h2>La Cazadora Nocturna</h2>
 		<nav>		
-				<a href="index.html">Inicio</a>
-				<a href="historia.html">Historia</a>
-				<a href="contacto.html">Contacto</a>				
+				<a href="../index.html">Inicio</a>
+				<a href="../historia.html">Historia</a>
+				<a href="../contacto.html">Contacto</a>				
 		</nav>
 	
 
@@ -55,7 +55,7 @@
 				$cuerpo = "$nombre te envío el formulario, contactalo a su mail $email Su mensaje es: $comentario ";
 
 				$cabecera = "From: Nombre <mail@sitio.com>";
-
+					
 				mail($destinatario,
 			 	$asunto,
 			 	$cuerpo,
@@ -63,14 +63,10 @@
 			
 			echo "Mensaje enviado¡";	
 			}else{
-				echo "Error, no se pudo enviar comentario :/ ";
+				echo "Error, no se pudo enviar comentario.";
 			}
 		
 		?>
 	
 
 	</section>
-		<!--  -->	
-
-	
-	<footer class="pie-pagina"> </footer>
