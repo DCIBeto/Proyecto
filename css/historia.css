@@ -2,6 +2,9 @@
 /* historia.css*/
 body{
     background-color: rgb(1, 2, 4);
+    background-image: url(../imagenes/aspectos/Vayne_0.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 10px;
@@ -46,11 +49,13 @@ section div h2 {
 }
 
 .historia1{
+    background-color: rgb(1, 2, 4);
     border-style: groove;
     padding-left: 1em;
     padding-right: 1em;
 }
 .historia2{
+    background-color: rgb(1, 2, 4);
     border-style: groove;
     padding-left: 1em;
     padding-right: 1em;
