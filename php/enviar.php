@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Vayne|Lore, Habilidades, Skin </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	<link rel="stylesheet"  href="../css/contacto.css">
 	<link rel="icon" href="imagenes/favico.png" sizes="16x16" type="image/png" >
 
