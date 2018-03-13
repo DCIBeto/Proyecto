@@ -63,6 +63,10 @@ section div h2 {
     padding: 2em; 
     position: absolute;
 }
+section div h2{
+    color: black;
+
+}
 
 .infouno {
     border-style: groove;
