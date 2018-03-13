@@ -28,7 +28,11 @@ header h1 {
         color: #dedede;
         text-align: center;
 }
-    
+
+nav ul li{
+	list-style-type: none;
+	display:inline;
+}
 nav a{
         
         color: #dedede;
